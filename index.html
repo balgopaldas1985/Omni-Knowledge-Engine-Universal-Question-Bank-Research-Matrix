@@ -71,6 +71,24 @@
         .tab-btn.active {
             background: #0284c7;
             color: #fff;
+            .notes-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 24px;
+            }
+            .notes-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+@media (min-width: 768px) {
+    .notes-grid {
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        gap: 24px;
+    }
+}
+            
         }
 
         main {
